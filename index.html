@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8eb688fe6b.js" crossorigin="anonymous"></script>
+    <title>Budget Planner</title>
+</head>
+<body>
+
+<!-- MENU START -->
+
+<header>
+
+    <div class="balance">
+        <div class="bal-txt-cont">
+            <p class="balance-text">Balance</p>
+        </div>
+        <div class="bal-amo-con">
+            <p class="balance-amount"><i class="fas fa-euro-sign"></i><p class="all-amount"></p></p>
+        </div>
+    </div>
+
+    <div class="menu">
+
+        <div class="income"><p><i class="fas fa-piggy-bank pig"></i></p><p class="income-amount"></p><i class="fas fa-euro-sign"></i></div>
+
+        <button class="plus"><i class="fas fa-plus"></i></button>
+
+        <div class="minus"><p><i class="fas fa-sort-amount-down down"></i></p><p class="expenses-amount"></p><i class="fas fa-euro-sign"></i></div>
+
+    </div>
+
+    <button class="delete-all-button"><i class="far fa-trash-alt"></i></button>
+
+</header>
+
+<!-- MENU END -->
+
+<!-- MAIN CONTENT START -->
+
+<div class="main-content">
+
+    <div class="main-container">
+
+
+
+    </div>
+
+</div>
+
+<!-- MAIN CONTENT END -->
+
+<!-- PLUS POP-UP START -->
+
+<div class="popup">
+
+    <div class="popup-container">
+
+        <div class="buttons-choice">
+            <div>
+                <button class="button-choice-earnings">earnings</button>
+                <button class="button-choice-expenses">expenses</button>
+            </div>
+            <div>
+                <button class="close">X</button>
+            </div>
+        </div>
+
+        <div class="icons-g">
+
+            <button class="icon-green"><i class="fas fa-briefcase"></i></button>
+            <button class="icon-green"><i class="fas fa-piggy-bank"></i></button>
+            <button class="icon-green"><i class="fas fa-gift"></i></button>
+
+        </div>
+
+        <div class="icons-r">
+
+            <button class="icon-red"><i class="fas fa-bus"></i></button>
+            <button class="icon-red"><i class="fas fa-shopping-basket"></i></button>
+            <button class="icon-red"><i class="fas fa-tshirt"></i></button>
+            <button class="icon-red"><i class="fas fa-home"></i></button>
+            <button class="icon-red"><i class="fas fa-umbrella-beach"></i></button>
+
+        </div>
+
+        <div class="text-container">
+
+            <p class="text-icon"><i class="fas fa-comment-dots"></i></p>
+            <input type="text" class="description" maxlength="35" placeholder="Your payment description">
+
+        </div>
+
+        <div class="text-container">
+
+            <p class="amount-icon"><i class="fas fa-euro-sign"></i></p>
+            <input type="number" step="0,1" class="amount" placeholder="0,00">
+
+        </div>
+
+        <div class="confirm-container">
+
+            <button class="confirm">confirm</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PLUS POP-UP END -->
+
+<script src="main.js"></script>
+</body>
+</html>
+
