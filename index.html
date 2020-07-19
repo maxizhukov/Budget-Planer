@@ -99,7 +99,7 @@
         <div class="text-container">
 
             <p class="amount-icon"><i class="fas fa-euro-sign"></i></p>
-            <input type="number" step="0,1" class="amount" placeholder="0,00">
+            <input type="number" step="0,1" class="amount" placeholder="0,00" onKeyUp="if(this.value>999999){this.value='999999';}else if(this.value<0){this.value='0';}">
 
         </div>
 

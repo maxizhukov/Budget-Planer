@@ -469,3 +469,39 @@ input[type=number]::-webkit-inner-spin-button {
     border-radius: 10px;
 }
 /* POPUP END */
+
+/* ADAPTIV */
+
+@media screen and (max-width: 1800px) {
+    .confirm {
+        width: 140px;
+        height: 40px;
+        padding: 5px;
+        background: white;
+        border: 2px solid #727272;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .main-container {
+        width: 800px;
+        background: white;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+        transition: 1s;
+    }
+
+    .popup-container {
+        transition: 1s;
+        width: 20vw;
+        min-height: 60px;
+        background: white;
+        border-radius: 10px;
+        border: 2px solid #7e7f97;
+        -webkit-box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 17px -10px rgba(0,0,0,0.75);
+    }
+}
